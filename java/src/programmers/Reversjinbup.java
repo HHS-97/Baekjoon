@@ -15,7 +15,11 @@ public class Reversjinbup {
 		int i = N;
 		
 		while(i > 0) {
+			int j = i % B;
 			
+			if(j <= 9) {
+				
+			}
 		}
 		
 
