@@ -1,4 +1,4 @@
-package programmers;
+package Baekjoon;
 
 public class Paping {
 

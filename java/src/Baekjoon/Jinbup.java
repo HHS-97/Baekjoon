@@ -1,4 +1,4 @@
-package programmers;
+package Baekjoon;
 import java.nio.charset.Charset;
 import java.util.*;
 
