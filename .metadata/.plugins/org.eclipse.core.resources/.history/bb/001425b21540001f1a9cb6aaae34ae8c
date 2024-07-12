@@ -1,0 +1,32 @@
+package generalmath;
+
+import java.util.*;
+
+public class Problem11005 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		long N = sc.nextInt();
+		long B = sc.nextLong();
+		long Q = N / B;
+		int i = 0;
+		ArrayList<Long> Narr = new ArrayList<Long>();
+		
+		while(true) {
+			if(Q > B) {
+				Narr.add(i,Q);
+				break;
+			} else {
+				Narr.add(i, N%B);
+				Q = N / B;
+			}
+		}
+		
+		Collections.reverse(Narr);
+		System.out.println(Narr);
+		sc.close();
+	}
+
+}

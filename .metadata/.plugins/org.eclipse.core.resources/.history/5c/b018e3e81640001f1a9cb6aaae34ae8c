@@ -1,0 +1,33 @@
+package generalmath;
+
+import java.util.*;
+
+public class Problem11005 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		long N = sc.nextInt();
+		long B = sc.nextLong();
+		long quotient = N/B;
+		int i = 0;
+		ArrayList<Long> Narr = new ArrayList<Long>();
+		
+		while(true) {
+			if(quotient <= B) {
+				Narr.add(i, quotient);
+				break;
+			} else {
+				Narr.add(i, quotient%B);
+				i++;
+				quotient = quotient/B;
+			}
+		}
+		
+		Collections.reverse(Narr);
+		System.out.println(Narr);
+		sc.close();
+	}
+
+}
