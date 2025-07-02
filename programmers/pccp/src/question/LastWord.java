@@ -23,7 +23,22 @@ public class LastWord {
 		boolean answer = true;
 		Set<String> setWords = new HashSet<>();
 
-		for (String word : words) setWords.add(word);
+		for (int i = 0; i < words.length; i++) {
+			if (i > 0) {
+				String postWord = words[i-1];
+				int postWordLength = postWord.length();
+				String word = words[i];
+				int wordLength = word.length();
+
+				if (postWord.charAt(postWordLength-1) != word.charAt(0)) {
+					answer = false;
+
+					return answer;
+				}
+			}
+
+			setWords.add(words[i]);
+		}
 
 		if (words.length != setWords.size()) answer = false;
 
