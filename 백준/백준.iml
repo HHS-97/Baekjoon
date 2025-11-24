@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Bronze/1000. A＋B" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Bronze/10926. ？？！" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Bronze/19532. 수학은 비대면강의입니다" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Bronze/2231. 분해합" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Bronze/2557. Hello World" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Bronze/2798. 블랙잭" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
