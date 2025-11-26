@@ -66,6 +66,7 @@ public class Main {
 			return;
 		}
 
+		// last를 설정해서 현재 루프에서 같은 자리에서는 같은 값이 오지 않게 해서 중복 제거
 		int last = -1;
 		for (int i=start; i<n; i++) {
 			if (arr.get(i) == last) continue;
